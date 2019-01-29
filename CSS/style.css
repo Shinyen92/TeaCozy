@@ -19,6 +19,9 @@ header {
   margin-top: 0;
 }
 
+a {
+  color: seashell;
+}
 
 h2 {
   font-size: 30px;
@@ -82,4 +85,18 @@ nav span {
 .featured-tea {
   text-align: center;
   width: 1200px;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width:1000px;
+}
+
+
+.item img{
+  height:200px;
+  width: 300px;
+  padding: 10px;
 }
